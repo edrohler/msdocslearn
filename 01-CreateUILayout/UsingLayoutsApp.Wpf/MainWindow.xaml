@@ -16,7 +16,7 @@
             <RowDefinition />
         </Grid.RowDefinitions>
 
-        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
             <Rectangle Width="100"
                        Height="100"
                        Fill="LightGray" />
