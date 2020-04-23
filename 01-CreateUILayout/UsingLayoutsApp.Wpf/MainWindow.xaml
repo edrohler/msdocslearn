@@ -16,24 +16,26 @@
             <RowDefinition />
         </Grid.RowDefinitions>
 
-        <Rectangle Width="200"
-                   Height="200"
-                   Fill="LightGray" />
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Rectangle Width="100"
+                       Height="100"
+                       Fill="LightGray" />
+            <Rectangle Width="100"
+                       Height="100"
+                       Fill="Gray" />
+        </StackPanel>
 
-        <Rectangle Width="200"
-                   Height="200"
+        <Rectangle Width="100"
+                   Height="100"
                    Fill="LightGray"  Grid.Row="1"/>
 
-        <StackPanel>
-            
-        </StackPanel>
-        <Rectangle Width="200"
-                   Height="200"
+        <Rectangle Width="100"
+                   Height="100"
                    Fill="LightGray"
                    Grid.Column="1" />
         
-        <Rectangle Width="200"
-                   Height="200"
+        <Rectangle Width="100"
+                   Height="100"
                    Fill="LightGray"
                    Grid.Row="1" Grid.Column="1" />
     </Grid>
